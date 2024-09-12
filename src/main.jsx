@@ -10,7 +10,7 @@ import'./index.css'
 import MyFunctions from './functions/MyFuntions.jsx'
 import MyPromises from './functions/MyPromises.jsx'
 import  MyFetchsAPIp from './functions/MyFetchPut.jsx'
-
+import MyFetchsAPIpost from './functions/MyFetchPost.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
    

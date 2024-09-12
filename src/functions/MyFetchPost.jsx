@@ -1,11 +1,10 @@
-function MyFetchAPIsp() {
-    console.log("Programa para FETCH API PUT")
+function MyFetchAPIsp() { 
     let usuario = {
-    nombre: "morpheus",
+    nombre: 'Aitana',
     edad: 25
 }
- fetch('https://reqres.in/', {
-    method: 'PUT',
+fetch('https://reqres.in/', {
+    method: 'POST',
     body: JSON.stringify(usuario), //data a enviar
     headers: {
         'Content-Type': 'application/json'
@@ -14,14 +13,14 @@ function MyFetchAPIsp() {
 .then(resp => resp.json())
 .then(console.log)
 .catch(error => {
-    console.log('Error en la peticion API PUT');
+    console.log('Error en la peticion API POST');
     console.log(error);
-});   
+});
     return (
         <>
             <div>
                 <h1>
-                    Programa para FETCH API PUT
+                    Programa para FETCH API POST
                 </h1>
             </div>
        
