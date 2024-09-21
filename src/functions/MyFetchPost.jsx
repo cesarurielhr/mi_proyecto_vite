@@ -3,7 +3,7 @@ function MyFetchAPIsp() {
     nombre: 'Aitana',
     edad: 25
 }
-fetch('https://reqres.in/', {
+fetch('https://reqres.in/api/users/', {
     method: 'POST',
     body: JSON.stringify(usuario), //data a enviar
     headers: {

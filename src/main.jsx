@@ -11,6 +11,13 @@ import MyFunctions from './functions/MyFuntions.jsx'
 import MyPromises from './functions/MyPromises.jsx'
 import  MyFetchsAPIp from './functions/MyFetchPut.jsx'
 import MyFetchsAPIpost from './functions/MyFetchPost.jsx'
+import MyFetchBlob from './functions/MyfetchBlob.jsx'
+import MyDataTypes from './methods/MyDataTypes.jsx';
+import MyObjects from './methods/MyObjects.jsx'
+import { Contador } from './components/Contador.jsx'
+import  {ContadorHook}  from './components/ContadorHook.jsx'
+import { Login } from './components/Login.jsx'
+import { Usuarios } from './components/Usuarios.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
    
@@ -19,7 +26,15 @@ createRoot(document.getElementById('root')).render(
     {/*<MyPromises/>*/}
     {/*<MyPromiseAll/>*/}
       {/*<MyPromisesRace/>*/}
-      {/*<MyFetchsAPI/>*/}
-       <MyFetchsAPIp/>
+      {/*<MyFetchsAPIpost/>*/}
+      {/*} <MyFetchsAPIp/>*/}
+       {/*<MyFetchBlob/>*/}
+       {/*<MyDataTypes/>*/}
+      {/* <MyObjects/>*/}
+       {/*<Contador/>*/}
+      <ContadorHook/>
+      {/*<Login/>*/}
+     {/* <Usuarios/>*/}
+
   </StrictMode>,
 )

@@ -4,7 +4,7 @@ function MyFetchAPIsp() {
     nombre: "morpheus",
     edad: 25
 }
- fetch('https://reqres.in/', {
+ fetch('https://reqres.in/api/users/', {
     method: 'PUT',
     body: JSON.stringify(usuario), //data a enviar
     headers: {
